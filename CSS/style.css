@@ -1,0 +1,47 @@
+*
+{
+    h2{
+        background-color: blue;
+    }
+
+    h1{
+        background-color: yellowgreen;
+    }
+    text-align: center;
+    
+    body {
+        font-family: Arial, sans-serif;
+        background-color: azure;
+    }
+    
+    .container {
+        max-width: 600px;
+        margin: 50px auto;
+        background-color: azure;
+    }
+    
+    input[type="text"] {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+    
+    ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    
+    li {
+        padding: 10px;
+        border-bottom: 1px solid #ddd;
+    }
+    
+    li:hover {
+        background-color: #f5f;
+        cursor: pointer;
+
+        }
+
+        
+    
+}
