@@ -1,9 +1,12 @@
 const tickerList = document.getElementById('tickerList');
-const searchInput = document.getElementById("searchInput");
+ const searchInput = document.getElementById("searchInput");
+
 
 function searchSymbol() {
-    const searchInputValue = searchInput.value;
-    console.log("Search for symbol: ", searchInputValue);
+ const searchInputValue =searchInput.value;   
+
+    console.log("Search for symbol: ", searchInput);
+    alert("Searching for symbol:"+searchInputValue)
 }
 
 // Function to fetch ticker data from Binance API
@@ -45,18 +48,14 @@ function handleSearchInput() {
     }
 }
 
-// Event listener for input event on search input
+// Event listener for search input
 searchInput.addEventListener('input', handleSearchInput);
 
-// Event listener for click event on search button
-document.getElementById("searchButton").addEventListener("click", searchSymbol);
+// Fetch ticker data and display it initially
+let tickerData;
+fetchTickerData()
+    .then(data => {
+        tickerData = data;
+        displayTickerData(tickerData);
+    });
 
-// Event listener for DOMContentLoaded event
-document.addEventListener('DOMContentLoaded', () => {
-    let tickerData;
-    fetchTickerData()
-        .then(data => {
-            tickerData = data;
-            displayTickerData(tickerData);
-        });
-});
