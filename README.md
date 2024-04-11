@@ -1,4 +1,4 @@
-#Binance Symbol App
+# Binance Symbol App
 
 
 By **Kelvin Kinoti**
@@ -12,7 +12,6 @@ This application will make the work of a trader to identify the change of a coin
 
 ### Requirements
 
-* 
 * Access to the internet.
 
 ### Installation Process
@@ -22,6 +21,7 @@ This application will make the work of a trader to identify the change of a coin
 
 
 ## Technologies Used
+* Git Hub
 * HTML
 * JS
 * CSS
