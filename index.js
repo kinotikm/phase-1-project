@@ -1,13 +1,16 @@
+document.addEventListener("DOMContentLoaded" , () => {
 const tickerList = document.getElementById('tickerList');
  const searchInput = document.getElementById("searchInput");
+ const searchButton = document.getElementById('searchButton');
 
 
-function searchSymbol() {
- const searchInputValue =searchInput.value;   
+ searchButton.addEventListener('click', function() {
+    const searchInputValue = searchInput.value;
+    console.log("Search for symbol: ", searchInputValue);
+    alert("Searching for symbol: " + searchInputValue);
 
-    console.log("Search for symbol: ", searchInput);
-    alert("Searching for symbol:"+searchInputValue)
-}
+
+});
 
 // Function to fetch ticker data from Binance API
 async function fetchTickerData() {
@@ -58,4 +61,5 @@ fetchTickerData()
         tickerData = data;
         displayTickerData(tickerData);
     });
+});
 
