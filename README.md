@@ -1,4 +1,4 @@
-# Binance Symbol App
+# (Binance Symbol App)
 
 
 By **Kelvin Kinoti**
@@ -8,15 +8,18 @@ By **Kelvin Kinoti**
 This is a simple web application that allows a user to enter a binance symbol in the serch bar  and extract a value on the tickerlist .For example "ETHBTC" will output "ETHBTC: 0.05045000".
 This application will make the work of a trader to identify the change of a coin in the market hence will help invstors and traders to easily track the performance of a particular stock. 
 
-## How to Use
+
 
 ### Requirements
-
+* A computer with bash and node installed
+* A json is watching he node
 * Access to the internet.
 
 ### Installation Process
+You use git clone to be able to download the documents in the GitHub
 
 # live link
+[Git](https://kinotikm.github.io/phase-1-project/)
 
 
 
