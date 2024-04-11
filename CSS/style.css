@@ -17,7 +17,7 @@
     .container {
         max-width: 600px;
         margin: 50px auto;
-        background-color: azure;
+        background-color: orangered;
     }
     
     input[type="text"] {
