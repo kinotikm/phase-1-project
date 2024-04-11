@@ -17,9 +17,8 @@ This application will make the work of a trader to identify the change of a coin
 
 ### Installation Process
 
-1. Clone this repository using
+# live link
 
-5. Run the application using
 
 
 ## Technologies Used
